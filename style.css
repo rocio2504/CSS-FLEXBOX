@@ -4,6 +4,38 @@ h1 {
 body {
   background-color: beige;
 }
+
+.flex-container {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+}
+
+.flex-container2 {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  /*esto es para columna:
+  flex-direction: column;
+  */
+  flex-direction: row;
+}
+
+.flex-container3 {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  /*esto es para columna:
+  flex-direction: column;
+  */
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 0 auto;
+}
 .caja {
   border: 2px solid rgb(70, 69, 69);
   background-color: white;
@@ -15,5 +47,5 @@ body {
   line-height: 120px;
   text-align: center;
   margin: 10px;
-  float: left;
+  /*float: left;*/
 }
