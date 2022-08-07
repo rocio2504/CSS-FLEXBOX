@@ -33,9 +33,67 @@ body {
   */
   flex-direction: row;
   flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+  /* Esta linea reemplaza a las 2 de arriba 
+  flex-flow: row wrap;
+  */
   width: 80%;
   margin: 0 auto;
 }
+.flex-container4 {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  /*esto es para columna:
+  flex-direction: column;
+  */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+  /* Esta linea reemplaza a las 2 de arriba 
+  flex-flow: row wrap;
+  */
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.flex-container5 {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  /*esto es para columna:
+  flex-direction: column;
+  */
+  flex-direction: row;
+  flex-wrap: wrap;
+  /*flex-wrap: wrap-reverse;*/
+  /* Esta linea reemplaza a las 2 de arriba 
+  flex-flow: row wrap;
+  */
+  justify-content: space-between;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+}
+
+.flex-container6 {
+  border: 1px solid black;
+  background: #ccc;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  height: 600px;
+  margin: 0 auto;
+  align-items: center;
+  /*align-items: stretch;*/
+}
+
 .caja {
   border: 2px solid rgb(70, 69, 69);
   background-color: white;
@@ -44,6 +102,34 @@ body {
   font-weight: bold;
   width: 120px;
   height: 120px;
+  line-height: 120px;
+  text-align: center;
+  margin: 10px;
+  /*float: left;*/
+}
+
+.caja5 {
+  border: 2px solid rgb(70, 69, 69);
+  background-color: white;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 120px;
+  /*height: 120px;*/
+  line-height: 120px;
+  text-align: center;
+  margin: 10px;
+  /*float: left;*/
+}
+
+.caja6 {
+  border: 2px solid rgb(70, 69, 69);
+  background-color: white;
+  color: black;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 120px;
+  /*height: 120px;*/
   line-height: 120px;
   text-align: center;
   margin: 10px;
